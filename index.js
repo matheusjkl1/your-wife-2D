@@ -1,3 +1,6 @@
+const readline = require('readline-sync');
+
+
 const randomNumeric =  Math.floor(Math.random() * 5);
 
 const waifuArray = [
@@ -9,10 +12,34 @@ const waifuArray = [
   "Shizuka Hiratsuka",
 ]
 
-waifuArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)})
+const husbandArray = [
+  "Levi Arckeman",
+  "Shoyo Hinata",
+  "Tobio Kageyama",
+  "Osamu Dazai",
+  "Chūya Nakahara",
+  "Atsushi Nakajima"
+]
 
-// for (let index = 0; index < waifuArray.length; index++) {
-//     const element = waifuArray[randomNumeric];
+function querryResponse() {
+  const questionResponse = readline.question('Husband or Waifu?');
+  if (questionResponse === "Husband") {
+    husbandArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)})
+  } else {
+    waifuArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)})
+  }
+}
 
-//     return console.log(`Sua é Waifu, ${element}! 🙃`);
-// }
+const questionResponse = readline.question('Husband or Waifu?');
+if (!questionResponse || questionResponse != "Husband" || questionResponse != "Waifu") {
+  console.log('Errado!');
+  querryResponse()
+} else {
+  if (questionResponse === "Husband") {
+    husbandArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)})
+  } else {
+    waifuArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)})
+  }
+}
+
+

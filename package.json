@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/matheusjkl1/waifu-generation/issues"
   },
-  "homepage": "https://github.com/matheusjkl1/your-wife-2D/#readme"
+  "homepage": "https://github.com/matheusjkl1/your-wife-2D/#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
