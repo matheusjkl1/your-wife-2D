@@ -1,0 +1,23 @@
+{
+  "name": "your-wife-2d",
+  "version": "1.0.0",
+  "description": "Gera sua waifu 2D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "waifu": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/matheusjkl1/waifu-generation.git"
+  },
+  "keywords": [
+    "waifu"
+  ],
+  "author": "Matheus Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusjkl1/waifu-generation/issues"
+  },
+  "homepage": "https://github.com/matheusjkl1/waifu-generation#readme"
+}
