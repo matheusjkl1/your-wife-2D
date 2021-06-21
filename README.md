@@ -1,0 +1,3 @@
+# Waifu Random
+
+Npm Start
