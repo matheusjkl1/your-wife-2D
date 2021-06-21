@@ -27,7 +27,7 @@ function question() {
 
 function validationResponse(questionResponse) {
   if (questionResponse === "Husband" || questionResponse === "Waifu") {
-    waifuOrHusbandVerify(questionResponse)
+    waifuOrHusbandVerify(questionResponse);
   } else {
     console.log('Errado!');
     question();
@@ -36,9 +36,9 @@ function validationResponse(questionResponse) {
 
 function waifuOrHusbandVerify(questionResponse) {
   if (questionResponse === "Husband") {
-    husbandArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)})
+    husbandArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)});
   } else {
-    waifuArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)})
+    waifuArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)});
   }
 }
 
