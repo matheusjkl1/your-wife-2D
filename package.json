@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/matheusjkl1/your-wife-2D/#readme",
   "dependencies": {
+    "lint": "^0.7.0",
     "readline-sync": "^1.4.10"
   }
 }
