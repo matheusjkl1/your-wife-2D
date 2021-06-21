@@ -34,7 +34,6 @@ function validationResponse(questionResponse) {
   }
 }
 
-
 function waifuOrHusbandVerify(questionResponse) {
   if (questionResponse === "Husband") {
     husbandArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)})
