@@ -1,5 +1,5 @@
 {
-  "name": "your-wife-2d",
+  "name": "yourwife2d",
   "version": "1.0.0",
   "description": "Gera sua waifu 2D",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/matheusjkl1/waifu-generation.git"
+    "url": "git+ssh://git@github.com:matheusjkl1/your-wife-2D.git"
   },
   "keywords": [
     "waifu"
@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/matheusjkl1/waifu-generation/issues"
   },
-  "homepage": "https://github.com/matheusjkl1/waifu-generation#readme"
+  "homepage": "https://github.com/matheusjkl1/your-wife-2D/#readme"
+  
 }
