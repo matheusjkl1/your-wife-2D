@@ -9,8 +9,10 @@ const waifuArray = [
   "Shizuka Hiratsuka",
 ]
 
-for (let index = 0; index < waifuArray.length; index++) {
-    const element = waifuArray[randomNumeric];
+waifuArray.forEach((item, index) => { if(index === randomNumeric) console.log(`Sua é Waifu, ${item}! 🙃`)})
 
-    return console.log(`Sua é Waifu, ${element}! 🙃`);
-}
+// for (let index = 0; index < waifuArray.length; index++) {
+//     const element = waifuArray[randomNumeric];
+
+//     return console.log(`Sua é Waifu, ${element}! 🙃`);
+// }
