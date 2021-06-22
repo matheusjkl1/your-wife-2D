@@ -1,3 +1,3 @@
 # Waifu Random
 
-Npm run waifu
+npm run waifu
